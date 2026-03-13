@@ -3,7 +3,7 @@ import { indexDocument } from "./src/rag/pipeline.js";
 
 // top level await to let indexing step finish before 
 // user prompt is passed.
-await indexDocument("./data/documents/lex.pdf");
+await indexDocument("./data/documents/summary.pdf");
 console.log("Document indexed...");
 
 /*

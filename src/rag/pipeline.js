@@ -56,7 +56,7 @@ export const askQuestions = async (question) => {
   console.log("context...", context)
 
   // the LLM prompt
-  const prompt = `Answer the question using the context below.
+  const prompt = `Below are the context and question prompt. Act like you did not have any context. But base your response based on it.  
 
   Context: ${context}
   Question: ${question}
